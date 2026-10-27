@@ -1,0 +1,26 @@
+{
+   "firstname": "sivateja",
+   "lastname": "borra",
+   "dob": "01-01-01",
+   "address": [
+    {
+        "type": "perment",
+        "doorno": "1-456",
+        "street": "sivanagar",
+        "city": "Hyderbad"
+    },
+    {
+        "type": "tempory",
+        "doorno": "1-456",
+        "street": "sivanagar",
+        "city": "Hyderbad"
+        
+    }
+   ],
+   "skills": {
+       "OS": "linux",
+       "IDE": "vscode",
+       "CM": "ansible"
+   }
+    
+}

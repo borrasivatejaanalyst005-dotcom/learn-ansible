@@ -1,0 +1,17 @@
+- first_name: sivateja
+  last_name: Borra
+  dob: 01-01-01
+  # - is list
+  address:
+   - type: perment
+     doorno: 1023,
+     steertname: sivanager
+     city: hyderbad
+   - type: perment
+     doorno: 1023,
+     steertname: sivanager
+     city: hyderbad
+  skills:
+      os: linux
+      ide: vscode
+      cm: ansible

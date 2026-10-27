@@ -1,0 +1,17 @@
+<student>
+     <firstname>sivateja</firstname>
+     <lastname>Borra</lastname>
+     <dob>01-01-01</dob>
+     <address>
+        <address type="tempory">     
+          <doorno>89-13</doorno>
+          <streetname>sivanager</streetname>
+          <city>hyderbad</city>
+          </address>
+          <address type="perment">     
+          <doorno>89-13</doorno>
+          <streetname>sivanager</streetname>
+          <city>hyderbad</city>
+          </address>
+     </address>
+</student>
