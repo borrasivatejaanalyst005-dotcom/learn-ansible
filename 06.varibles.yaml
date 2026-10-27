@@ -1,0 +1,15 @@
+- name: demo on varible
+  hosts: local
+  connection: local
+  vars:
+    property: "100acre"
+  tasks:
+   - name: print the vars  
+     debug:
+       msg: "Hi,i got {{ property }} from my father"
+       
+   - name: print the vars  again 
+     vars:
+     property: "100acre"   
+     debug:
+       msg: "Hi,i got {{ property }} from my father"
