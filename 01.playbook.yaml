@@ -1,6 +1,6 @@
 - name: ping demo
   hosts: local  # target ansible server itself
   connection: local # it will not except crendential
-  task: # task == module ==collecion
-  -name: ping localhost
-   ping:
+  task: # task == module == collecion
+  - name: ping localhost
+    ping:
