@@ -5,5 +5,5 @@
   - course.yaml
   tasks:
   - name: print courses information
-     debug:
+    debug:
       msg: "hi, iam learing{{ courses }} from {{ trainer }} duration is {{ duration }}"
