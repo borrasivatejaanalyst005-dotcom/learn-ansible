@@ -13,8 +13,9 @@
     more_detaials: #dict
       trainer: sivateja
       months: 4 
-tasks:
-- name: print info and type
-  debug:
-    msg: |
+      
+  tasks:
+  - name: print info and type
+    debug:
+      msg: |
       name: "{{ course }} : {{ course | type_debug }}"    
