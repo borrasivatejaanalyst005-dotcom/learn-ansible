@@ -4,7 +4,7 @@
   tasks:
   - name: print nanes
     debug:
-     msg: "hi{{ item }}"
+     msg: "hi {{ item }}"
     loop:
     - john
     - ram
