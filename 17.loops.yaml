@@ -1,4 +1,4 @@
-- names: install packages
+- name: install packages
   hosts: local
   connection: local
   become: yes
@@ -10,8 +10,8 @@
    - net-tools
    - htop
   tasks:
-  - names: install packages
+  - name: install packages
     package:
-      names: "{{ item }}"
+      name: "{{ item }}"
       state: present
     loop: "{{ packages }}"
