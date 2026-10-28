@@ -14,4 +14,4 @@
     package:
       names: "{{ item }}"
       state: present
-    loop: packages
+    loop: "{{ packages }}"
