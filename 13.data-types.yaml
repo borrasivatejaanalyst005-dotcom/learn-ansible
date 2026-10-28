@@ -1,0 +1,20 @@
+- name: corse information
+  hosts: local
+  connection: local
+  vars: 
+    course: "AIOPS with devops on aws" # string
+    duration_in_hrs: 150 #number
+    is_lives_session: true # boolen
+    topics: #lisr
+    - linux
+    - shell
+    - ansible
+    - teffaform
+    more_detaials: #dict
+      trainer: sivateja
+      months: 4 
+tasks:
+- name: print info and type
+  debug:
+    msg: |
+      name: "{{ course }} : {{ course | type_debug }}"    
