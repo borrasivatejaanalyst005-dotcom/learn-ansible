@@ -23,4 +23,5 @@
         is live: "{{   is_lives_session }} : {{   is_lives_session | type_debug }}"
         topics are: "{{ topics }} : {{ topics | type_debug }}" 
         more details: "{{ more_details }} : {{ more_details | type_debug }}" 
-        # duration: "{{ exact_duration_in_months }} : {{ exact_duration_in_months | type_debug }}" 
+
+      # duration: "{{ exact_duration_in_months }} : {{ exact_duration_in_months | type_debug }}" 
