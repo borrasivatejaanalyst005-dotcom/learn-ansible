@@ -1,1 +1,18 @@
-  
+  - name: create user
+    hosts: local
+    connection: local
+    become: yes
+    tasks:
+    - name: check roboshop user exist or not
+      command:  id roboshop
+      register: user_output
+      ignore_errors: true
+
+
+    - name: print the output
+      debug:
+        msg: {{  user_output }}
+    
+    - name: create user
+      command: useradd roboshop
+      when:  user_output.rc !=0 
