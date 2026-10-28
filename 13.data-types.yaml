@@ -10,7 +10,7 @@
     - shell
     - ansible
     - teffaform
-    more_detaials: #dict
+    more_details: #dict
       trainer: sivateja
       months: 4 
       
