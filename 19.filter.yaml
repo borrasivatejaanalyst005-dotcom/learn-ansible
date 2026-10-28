@@ -1,0 +1,27 @@
+- name: demo on filter
+  hosts: local
+  connection: local
+  vars:
+    topics: "linux,shell,ansible,doctor"
+    names:
+    - siva
+    - teja
+    - borra
+    topic: ansible
+    duration: "4"
+  tasks:
+  - name: print the name
+    debug:
+     msg: "hi, {{ person_name | default('ramesh') }}"
+  - name: convert string to list
+    debug:
+     msg: "topics are: {{ topics | split(',') | trim }}" 
+  - name: convert list to string
+    debug:
+     msg: "full name: {{ names | join(' ')  }}" 
+  - name: convert  to lower case
+    debug:
+     msg: "topic: {{ topic | lower }}"  
+  - name: convert  to string to int 
+    debug:
+     msg: "duration: {{ duration | int }}"  
